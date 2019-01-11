@@ -1,0 +1,111 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav1 nav2 nav3 nav4 nav5"
+    "main main main main main"
+    "main2 main2 main3 aside1 header";
+    border: 2px solid purple;
+}
+.header{
+    grid-area: header;
+    background: black;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: purple;
+}
+.nav1{
+    grid-area: nav1;
+    background: lightblue;
+    height: 2em;
+    border: 1px solid blue;
+    text-align: center;
+}
+.nav2{
+    grid-area: nav2;
+    background: lightblue;
+    height: 2em;
+    border: 1px solid blue;
+    text-align: center;
+}
+.nav3{
+    grid-area: nav3;
+    background: lightblue;
+    height: 2em;
+    border: 1px solid blue;
+    text-align: center;
+}
+.nav4{
+    grid-area: nav4;
+    background: lightblue;
+    height: 2em;
+    border: 1px solid blue;
+    text-align: center;
+
+}
+.nav5{
+    grid-area: nav5;
+    background: lightblue;
+    height: 2em;
+    border: 1px solid blue;
+    text-align: center;
+
+}
+.nav6{
+    grid-area: nav6;
+    background: lightblue;
+    height: 2em;
+    text-align: center;
+}
+.nav7{
+    grid-area: nav7;
+    background: lightblue;
+    height: 2em;
+    text-align: center;
+
+}
+.nav8{
+    grid-area: nav8;
+    background: lightblue;
+    height: 2em;
+    text-align: center;
+
+}
+.aside1{
+    grid-area: aside1;
+    background: brown;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.main{
+    grid-area: main;
+    background: limegreen;
+    text-align: center;
+    font-family: 'Mali', cursive;
+    font-size: 4em;
+}
+.main2{
+    grid-area: main2;
+    background: blue;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.main3{
+    grid-area: main3;
+    background: pink;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+.aside2{
+    grid-area: aside2;
+    background: brown;
+    text-align: center;
+}
+.footer{
+    grid-area: footer;
+    background: limegreen;
+    text-align: center;
+    height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5em;
+}

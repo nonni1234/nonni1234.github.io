@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+html{
+    background: linear-gradient(to left, lightblue,violet);
+    margin-top: 13px;
+}
+
+.header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+"titill verkefni"
+"nav nav";
+height: 8em;
+width: 960px;
+margin: 0 auto;
+font-size: 1.1em;
+}
+.main{
+    background: linear-gradient(to left top, gold, orange);
+    height: 30em;
+    /* align-content: center; Virkaði ekki svo ég nota bara padding */
+    padding-top: 4em;
+}
+.læknisskoðun, .oskirnar3, .adamog, .alnæmi, .jolakveðja, .gefoss{
+    height: 100vh;
+    padding-top: 10em;
+    align-content: center;
+    font-size: 1.3em;
+    width: 960px;
+    margin: 0 auto;
+}
+h3{
+    margin-top: 0;
+    
+}
+    /* Navigation Menu */
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    background: #395870;
+    background: linear-gradient(#fa0577, #990a62);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  }
+  .navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .titill{
+      grid-area: titill;
+      margin: 0;
+      padding-left: 3em;
+      font-family: 'Mali', cursive;
+  }
+  .verkefni{
+      grid-area: verkefni;
+      padding-left: 8em;
+      font-family: 'Mali', cursive;
+  }
+  .navigation{
+      grid-area: nav;
+      padding-left: 5em; 
+  }
+  .pila{
+    border: solid gold;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 8px;
+    width: 6px;
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  .pila2{
+    border: solid gold;
+    border-width: 0 6px 0 0;
+    display: inline-block;
+    padding: 3px;
+    height: 16px;
+    width: 6px;
+    position: fixed;
+    bottom: 24px;
+    right: 45px;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .fotur{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 960px;
+      margin: 0 auto;
+  }
+li{
+    color: red;
+}
+dt{
+    color: lightcoral;
+}
+dd{
+    color: lightseagreen;
+}
+h4{
+    color: blue;
+}
+
+  

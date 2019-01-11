@@ -1,0 +1,88 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header header"
+    "nav1 efnisyfirlit efnisyfirlit efnisyfirlit nav2"
+    "aside1 main main main aside2"
+    "footer footer footer footer footer"
+}
+.header{
+    grid-area: header;
+    background: blue;
+    text-align: center;
+    padding-top: 0.4em;
+}
+.nav1{
+    grid-area: nav1;
+    background: burlywood;
+    height: 2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+.nav2{
+    grid-area: nav2;
+    background: burlywood;
+    height: 2em;
+    padding-top: 0.4em;
+    text-align: center;
+
+}
+.nav3{
+    grid-area: nav3;
+    background: burlywood;
+    height: 2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+.nav4{
+    grid-area: nav4;
+    background: burlywood;
+    height: 2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+.nav5{
+    grid-area: nav5;
+    background: burlywood;
+    height: 2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+.aside1{
+    grid-area: aside1;
+    background: brown;
+    text-align: center;
+    padding-top: 2em;
+}
+.main{
+    grid-area: main;
+    background: salmon;
+    text-align: center;
+    padding: 1em;
+    font-family: sans-serif
+}
+.aside2{
+    grid-area: aside2;
+    background: brown;
+    text-align: center;
+    padding-top: 2em;
+}
+.footer{
+    grid-area: footer;
+    background: limegreen;
+    text-align: center;
+    height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1em;
+    font-size: 0.5em;
+}
+.efnisyfirlit{
+    grid-area: efnisyfirlit;
+    background: red;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+

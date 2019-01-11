@@ -1,0 +1,99 @@
+body {background:chocolate;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 1px solid blue
+}
+
+.h1{ 
+text-align: center
+
+}
+h2{ 
+    text-align: center
+    
+}
+
+h3{ 
+    text-align: center;
+    color:red;
+}
+h4{ 
+    text-align: center;
+    color:blue;
+}
+
+.meginmal{ 
+    text-align: center;
+    color:teal;
+    }
+    h6{ 
+        text-align: center;
+        color:purple
+        }  
+.p1{
+    text-align: center;
+    color:violet;
+}  
+.lennon{
+    color:violet;
+}
+.poem{
+    color:forestgreen;    }
+.strong1{
+    color:red;
+}
+.strong2{
+    color:red;
+}
+.imagine{
+    color:rebeccapurple;
+    padding-left: 5px;
+}
+.Elvis{
+    color:blueviolet;
+}
+.konungur{
+    color:aquamarine;
+    text-decoration-line: underline;
+}
+.list{
+    color:seagreen;
+}
+.bathroom{
+    color:purple;
+}
+.lorem{
+    text-align: center;
+}
+.poem{
+    padding-left: 35px;
+}
+.loremh{
+    text-align: center;
+}
+.loremh1{
+    text-align: center;
+}
+.bodytexti{
+    text-align: center;
+    color: green;
+}
+.ipsum{
+    color: gold;
+}
+a:link {
+    color: blue 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}

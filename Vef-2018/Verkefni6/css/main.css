@@ -1,0 +1,17 @@
+/* Verkefni 6 CSS */
+/* Jón Bjarki Gíslason */
+
+@media screen and (min-width:37.5em){
+    html{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "header header"
+        "content content"
+        "haegri midja"
+        "vinstri midja"
+        "footer footer"
+        "topnav topnav";
+    }
+
+}

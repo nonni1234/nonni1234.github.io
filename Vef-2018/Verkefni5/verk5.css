@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu|Mali|Nanum+Gothic|Josefin+Sans');
+html{
+    background: linear-gradient(to right, violet,pink)
+}
+header{
+    background: linear-gradient(to left, lightblue,lightseagreen);
+}
+
+header img{
+    margin: 0;
+    text-align: center;
+}
+header h2{
+    text-align: center;
+    font-family: mali;
+    margin: 0 auto;
+}
+.lion{
+    text-align: center;
+    margin: 0;
+}
+/*.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "button1 button2 button3";
+} */
+.menu{
+    padding-left: 10px;
+}
+h4{
+    margin: 5px;
+    font-family: mali
+}
+button{
+    background-color: aqua;  
+    border: solid gold;
+    margin-top: 10px;
+}
+.vef{
+    font-family: PT Sans;
+    color:gold;
+    padding-bottom: 5px;
+}
+#verkefni{
+    display: none;
+}
+#ahugamal{
+    display: none;
+}
+#lysing{
+    padding-top: 5px;
+    display: none;
+}
+#lysing h4{
+    padding-top: 4px;
+}
+#buttons{
+    display: none;
+}
+.menntun{
+    margin: 3px;
+}
+.vef_button{
+    text-align: center;
+}
+li a:hover{
+    color: violet;
+}
+li{
+    color: lightblue;
+    font-family: Ubuntu;
+}
+#sjalfsmynd{
+    display: none;
+}
+.mynd_button{
+    background: linear-gradient(lightblue,violet)
+    border: none;
+    margin-bottom: 5px; 
+}
+
+#mynd1,#mynd2,#mynd3,#mynd4{
+    display: none;
+}
+#mynd1button,#mynd2button,#mynd3button,#mynd4button{
+    background: violet;
+    border: none;
+    padding: 3px;
+    font-family: sans;
+    color: gold;
+}
+.forritun_li, .parkour_li{
+    padding-bottom: 5px;
+}
+
+/* Main Section */
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "lipsum mynd";
+    border-bottom: 1px solid purple
+}
+#shrek_span{
+padding-left: 10px;
+
+}
+.lipsum{
+    font-size: 1em;
+    font-family: ubuntu;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.lipsum_div{
+    border-right: 1px solid purple;
+}
+.shrek_mynd{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.map{
+    padding-left: 30em;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.shrek_div{
+    border-left: 1px solid purple;
+}
+/* Greinargerð */
+
+#grein{
+    display: none;
+}
+#grein p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#greinbutton{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+#grein a:hover{
+    color: lightblue
+}
+.grein-span{
+    text-align: center;
+}

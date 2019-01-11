@@ -1,0 +1,83 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header header"
+    "nav1 nav2 nav3 nav4 nav5"
+    "aside1 main main main aside2"
+    "footer footer footer footer footer"
+}
+.header{
+    grid-area: header;
+    background: blue;
+    text-align: center;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+}
+.nav1{
+    grid-area: nav1;
+    background: salmon;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+}
+.nav2{
+    grid-area: nav2;
+    background: salmon;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+}
+.nav3{
+    grid-area: nav3;
+    background: salmon;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.nav4{
+    grid-area: nav4;
+    background: salmon;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.nav5{
+    grid-area: nav5;
+    background: salmon;
+    height: 2em;
+    padding-top: 0.4em;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.aside1{
+    grid-area: aside1;
+    background: orange;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+}
+.main{
+    grid-area: main;
+    background: limegreen;
+    text-align: center;
+    font-family: roboto slap;
+    font-size: 1.3em;
+}
+.aside2{
+    grid-area: aside2;
+    background: orange;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer{
+    grid-area: footer;
+    background: purple;
+    text-align: center;
+    height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1em;
+    font-size: 0.5em;
+}

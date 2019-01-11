@@ -1,0 +1,66 @@
+html{
+    background: blueviolet
+}
+
+.bakgrunnslitir{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 960px;
+margin: 0 auto;
+}
+
+.h{
+    grid-area: h;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 3em;
+    align-items: inherit;
+}
+.nav1{
+    grid-area: nav1;
+}
+.nav2{
+    grid-area: nav2;
+}
+.nav3{
+    grid-area: nav3;
+}
+.verk{
+    grid-area: verk;
+}
+.main{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    height: 20em;
+    padding-top: 0.5em
+}
+.section{
+    background: linear-gradient(gold,yellow);
+    margin-top: em;
+    margin-bottom: em;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 960px;
+    margin: 0 auto;
+    height: 2.5em;
+}
+.year{
+padding-top: 6.5em;
+}
+.block{
+    background: rgba(255,255,255,50%);
+}
+li{
+    color: red;
+}
+dt{
+    color: lightcoral;
+}
+dd{
+    color: lightseagreen;
+}
+h4{
+    color: lightsalmon;
+}

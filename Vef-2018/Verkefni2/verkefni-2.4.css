@@ -1,0 +1,21 @@
+.gulur{
+    width: 25%;
+}
+.raudur{
+    width: 25%;
+}
+.graenn{
+    width: 25%;
+}
+.blar{
+    width: 25%;
+    height: 150px;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: initial
+    
+
+}
