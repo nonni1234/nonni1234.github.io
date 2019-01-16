@@ -13,3 +13,6 @@ git diff - sýnir nýjar breytingar á þínum skrám
 git log - Sýnir allt sem þú hefur gert
 git checkout - Breyta um grein
 git branch - Sýnir allar greinar
+4. Hvað er útgáfustýring (Version Control)?
+ - version control geymir breytingar sem þú gerir við skrár eða sett af skrám yfir tíma
+ 
