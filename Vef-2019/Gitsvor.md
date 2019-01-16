@@ -21,3 +21,7 @@ git branch - Sýnir allar greinar
 
 6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
  - Þegar þér finnst það vera góður tími til þess
+
+7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
+ - Working directory er skjalið sem þú ert að vinna í, Staging area er þar sem þín commits eru geymd þangað til þú sendir þau á     github
+ 
