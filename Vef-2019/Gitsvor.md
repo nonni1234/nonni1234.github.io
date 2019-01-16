@@ -18,3 +18,6 @@ git branch - Sýnir allar greinar
 
 5. Hverjir eru helstu kostir við að nota GIT?
  - GIT er þægileg leið til að geyma skrár og verkefni á netinu og geta haft yfirsjón yfir allt sem þú gerir
+
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+ - Þegar þér finnst það vera góður tími til þess
