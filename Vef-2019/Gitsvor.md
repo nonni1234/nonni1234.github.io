@@ -1,3 +1,7 @@
+﻿
+
+Yeeter Skeeter Fetus Deleter
+
 1. Hvað gera eftirfarandi Linux skipanir?
 cd - Fer inn í möppu
 ls - sýnir innihald möppu
