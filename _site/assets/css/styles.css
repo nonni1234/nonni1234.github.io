@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* ├ëg ger├░i ekkert responsive web design ├¥v├¡ m├®r fannst s├¡├░an m├¡n ekki ├¥urfa ├¥a├░, h├║n l├¡tur mj├Âg vel ├║t ├¡ ├Âllum skj├íst├ªr├░um
+bara til a├░ s├¢na a├░ ├®g get ├¥a├░ samt, h├®rna er d├ªmi um media query: 
+@media screen and (min-width: 700px) {
+  .content {
+    font-size:5em;
+  }
+} */
+@import url("https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans");
+html {
+  background: linear-gradient(to left, #cc00cc, #ff0066); }
+
+.current {
+  color: blue;
+  font-weight: bold; }
+
+.topnav {
+  text-align: center;
+  border-top: solid 2px cyan;
+  border-bottom: solid 2px cyan;
+  padding: 20px;
+  font-size: 1.5em; }
+
+.topnav a {
+  margin: 10px;
+  text-decoration: none; }
+
+.topnav a:hover {
+  color: palegoldenrod; }
+
+.um {
+  font-size: 1.4em;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 40px; }
+
+.social {
+  border-top: solid 2px black;
+  padding-top: 20px; }
+
+.social a {
+  padding-left: 20px; }
+
+header h1 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 2.5em; }
+
+/* Um Mig ├¡ about.md */
+.ummig {
+  font-size: 1.4em;
+  font-family: 'Arvo', serif; }
