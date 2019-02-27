@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="370.77948"
+     inkscape:cy="894.97511"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="true"
+     showguides="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <ellipse
+       style="fill:#008000;stroke-width:0.32914248"
+       id="path25"
+       cx="45.34576"
+       cy="42.508648"
+       rx="34.654987"
+       ry="32.489056" />
+    <ellipse
+       ry="32.489056"
+       rx="34.654987"
+       cy="43.746334"
+       cx="148.69188"
+       id="ellipse38"
+       style="fill:#008000;stroke-width:0.32914248" />
+    <ellipse
+       style="fill:#008000;stroke-width:0.32914248"
+       id="ellipse40"
+       cx="96.090584"
+       cy="41.889812"
+       rx="34.654987"
+       ry="32.489056" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.81147003px;line-height:1.25;font-family:'My Best Shot';-inkscape-font-specification:'My Best Shot';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.30630973"
+       x="28.059126"
+       y="60.556973"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="28.059126"
+         y="60.556973"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'My Best Shot';-inkscape-font-specification:'My Best Shot';fill:#000080;stroke-width:0.30630973">Nonni</tspan></text>
+  </g>
+</svg>
