@@ -45,6 +45,15 @@ header h1 {
   text-align: center;
   font-size: 2.5em; }
 
+footer a {
+  font-size: 40px;
+  text-decoration: none;
+  color: black; }
+
+.nonni {
+  height: 200px;
+  width: 200px; }
+
 /* Um Mig ├¡ about.md */
 .ummig {
   font-size: 1.4em;
@@ -52,8 +61,8 @@ header h1 {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?cc7zl2");
-  src: url("fonts/icomoon.eot?cc7zl2#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?cc7zl2") format("truetype"), url("fonts/icomoon.woff?cc7zl2") format("woff"), url("fonts/icomoon.svg?cc7zl2#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?cc7zl2");
+  src: url("../fonts/icomoon.eot?cc7zl2#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?cc7zl2") format("truetype"), url("../fonts/icomoon.woff?cc7zl2") format("woff"), url("../fonts/icomoon.svg?cc7zl2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
