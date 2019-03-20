@@ -54,6 +54,9 @@ footer a {
   height: 200px;
   width: 200px; }
 
+.advertisement {
+  text-align: center; }
+
 /* Um Mig ├¡ about.md */
 .ummig {
   font-size: 1.4em;
