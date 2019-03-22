@@ -1,12 +1,6 @@
 @charset "UTF-8";
-/* ├ëg ger├░i ekkert responsive web design ├¥v├¡ m├®r fannst s├¡├░an m├¡n ekki ├¥urfa ├¥a├░, h├║n l├¡tur mj├Âg vel ├║t ├¡ ├Âllum skj├íst├ªr├░um
-bara til a├░ s├¢na a├░ ├®g get ├¥a├░ samt, h├®rna er d├ªmi um media query: 
-@media screen and (min-width: 700px) {
-  .content {
-    font-size:5em;
-  }
-} */
-@import url("https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Muli|Work+Sans");
 html {
   background: linear-gradient(to left, #cc00cc, #ff0066); }
 
@@ -29,6 +23,8 @@ html {
   color: palegoldenrod; }
 
 .um {
+  margin: 0 70px;
+  margin-top: 50px;
   font-size: 1.4em;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 40px; }
@@ -54,13 +50,20 @@ footer a {
   height: 200px;
   width: 200px; }
 
-.advertisement {
-  text-align: center; }
-
 /* Um Mig ├¡ about.md */
 .ummig {
   font-size: 1.4em;
   font-family: 'Arvo', serif; }
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: row; }
+
+.content {
+  flex-direction: row;
+  margin-left: 70px;
+  align-content: center; }
 
 @font-face {
   font-family: 'icomoon';
@@ -101,3 +104,62 @@ footer a {
 
 .icon-twitter:before {
   content: "\ea96"; }
+
+a {
+  text-decoration: none; }
+
+.adlink {
+  width: 170px;
+  background-color: #79b0d1;
+  padding: 20px 20px;
+  margin: 20px; }
+  .adlink .tseries {
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 200px;
+    animation-name: image;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: -1s; }
+  .adlink h3 {
+    text-align: center;
+    font-family: Muli, sans-serif; }
+  .adlink button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    color: #82255b;
+    background: #f26d0e;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    animation-name: buttonmove;
+    animation-duration: 3s;
+    overflow: hidden;
+    text-align: center; }
+  .adlink button:hover {
+    background-color: #f91616;
+    cursor: pointer; }
+
+@keyframes buttonmove {
+  0% {
+    left: 60px; }
+  40% {
+    left: 0; }
+  60% {
+    left: -20px; }
+  80% {
+    left: 0px; }
+  90% {
+    transform: rotate(-30deg); }
+  100% {
+    transform: rotate(30deg); } }
+@keyframes image {
+  0% {
+    top: -300px;
+    opacity: 0; }
+  100% {
+    top: 0px; } }

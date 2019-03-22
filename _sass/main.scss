@@ -1,11 +1,4 @@
-/* Ég gerði ekkert responsive web design því mér fannst síðan mín ekki þurfa það, hún lítur mjög vel út í öllum skjástærðum
-bara til að sýna að ég get það samt, hérna er dæmi um media query: 
-@media screen and (min-width: 700px) {
-  .content {
-    font-size:5em;
-  }
-} */
-@import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans');
 html {
   background: linear-gradient(to left,#cc00cc,#ff0066)
 }
@@ -28,12 +21,11 @@ html {
   color: palegoldenrod;
 }
 .um {
+  margin: 0 70px;
+  margin-top: 50px;
   font-size: 1.4em;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 40px;
-}
-.site_title {
-
 }
 .social{
   border-top: solid 2px black;
@@ -59,18 +51,19 @@ footer a {
   width: 200px;
 }
 
-.advertisement {
-  text-align: center;
-}
-
 /* Um Mig í about.md */
 .ummig {
   font-size: 1.4em;
   font-family: 'Arvo', serif;
 }
-// @media screen and (min-width: 700px) {
-//     content {
-//     background-color: black;
-//   }
-// }
-// Vill Ekki Virka
+
+.container {
+display: flex;
+flex-wrap: nowrap;
+flex-flow: row;
+}
+.content {
+  flex-direction: row;
+  margin-left: 70px;
+  align-content: center;
+}

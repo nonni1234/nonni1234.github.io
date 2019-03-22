@@ -11,8 +11,15 @@
       <h1><img class="nonni" src="/assets/images/logo.svg"><br>My Blog</h1>
       {% include navigation.html %}
     </header>
-    {{ content }}
+<div class="container">
 
+
+    {% include sidebar.html %}
+<div class="content">
+    {{ content }}
+  </div>
+
+  </div>
     <footer>
       {% include footer.html %}
     </footer>
