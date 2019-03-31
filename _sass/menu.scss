@@ -1,0 +1,46 @@
+.menuInput {
+    display: none;
+}
+@media screen and (min-width: 48em) { // Original Menuið á stórum skja
+    .icon-menu {
+      display: none;
+    }
+    .topnav {
+        text-align: center;
+        border-top: solid 2px cyan;
+        border-bottom: solid 2px cyan;
+        padding: 20px;
+        font-size: 1.5em;
+        animation-name: nav;
+        animation-iteration-count: 1;
+    }
+    .topnav a {
+      margin: 10px;
+      text-decoration: none;
+    }
+    .topnav a:hover {
+      color: palegoldenrod;
+    }
+    }
+
+@media screen and (max-width: 48em) {
+    .topnav {
+        position: relative;
+        top: -10.2em;
+        right: 5em;
+        text-align: center;
+        width: 5em;
+        display: flex;
+        flex-flow: column;
+        font-size: 1.4em;
+    }
+    input {
+        position: relative;
+        top: -10em;
+        font-size: 1.6em;
+    }
+    input#toggle:checked ~ .topnav{
+        top: -10em;
+        right: 0em;
+    }
+}

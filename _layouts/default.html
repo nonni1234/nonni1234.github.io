@@ -9,7 +9,13 @@
   <body>
     <header>
       <h1><img class="nonni" src="/assets/images/logo.svg"><br>My Blog</h1>
-      {% include navigation.html %}
+      <nav>
+        <input type="checkbox" id="toggle" class="menuInput">
+        <label for="toggle" class="menuLabel"> <span class="icon-menu"></span></label>
+    <div class="topmenu">
+        {% include navigation.html %}
+    </div>
+    </nav>
     </header>
 <div class="container">
 
