@@ -1,5 +1,5 @@
 .menuInput {
-    display: none;
+    display: block;
 }
 @media screen and (min-width: 48em) { // Original Menuið á stórum skja
     .icon-menu {
@@ -26,21 +26,30 @@
 @media screen and (max-width: 48em) {
     .topnav {
         position: relative;
-        top: -10.2em;
         right: 5em;
         text-align: center;
         width: 5em;
         display: flex;
         flex-flow: column;
         font-size: 1.4em;
+        transition: ease-in-out 0.5s all;
     }
     input {
-        position: relative;
+        overflow: hidden;
+        position: absolute;
         top: -10em;
-        font-size: 1.6em;
     }
-    input#toggle:checked ~ .topnav{
-        top: -10em;
-        right: 0em;
+    input#toggle:checked ~ .topnav {
+        //top: -10em;
+        //right: 0em;
+        right: -7em;
+    }
+    .icon-menu {
+        font-size: 1.5em;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    body {
+        margin: 0 auto;
     }
 }
