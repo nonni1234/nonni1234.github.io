@@ -153,10 +153,10 @@ a {
     opacity: 0; }
   100% {
     top: 0px; } }
-.menuInput {
-  display: block; }
-
 @media screen and (min-width: 48em) {
+  .menuInput {
+    display: none; }
+
   .icon-menu {
     display: none; }
 
@@ -165,9 +165,7 @@ a {
     border-top: solid 2px cyan;
     border-bottom: solid 2px cyan;
     padding: 20px;
-    font-size: 1.5em;
-    animation-name: nav;
-    animation-iteration-count: 1; }
+    font-size: 1.5em; }
 
   .topnav a {
     margin: 10px;
@@ -178,13 +176,14 @@ a {
 @media screen and (max-width: 48em) {
   .topnav {
     position: relative;
-    right: 5em;
+    right: 15em;
     text-align: center;
-    width: 5em;
+    width: 4.4em;
     display: flex;
     flex-flow: column;
     font-size: 1.4em;
-    transition: ease-in-out 0.5s all; }
+    transition: ease-in-out 0.5s all;
+    margin-top: 10px; }
 
   input {
     overflow: hidden;
@@ -192,10 +191,10 @@ a {
     top: -10em; }
 
   input#toggle:checked ~ .topnav {
-    right: -7em; }
+    right: 0em; }
 
-  .icon-menu:after {
-    font-size: 1.5em;
+  .icon-menu {
+    font-size: 2em;
     margin-left: 10px;
     margin-bottom: 15px;
     cursor: pointer; } }

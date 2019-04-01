@@ -1,7 +1,7 @@
-.menuInput {
-    display: block;
-}
-@media screen and (min-width: 48em) { // Original Menuið á stórum skja
+@media screen and (min-width: 48em) { // Original Menuið á stórum skjá
+   .menuInput {
+       display: none;
+   }
     .icon-menu {
       display: none;
     }
@@ -11,8 +11,6 @@
         border-bottom: solid 2px cyan;
         padding: 20px;
         font-size: 1.5em;
-        animation-name: nav;
-        animation-iteration-count: 1;
     }
     .topnav a {
       margin: 10px;
@@ -26,13 +24,14 @@
 @media screen and (max-width: 48em) {
     .topnav {
         position: relative;
-        right: 5em;
+        right: 15em;
         text-align: center;
-        width: 5em;
+        width: 4.4em;
         display: flex;
         flex-flow: column;
         font-size: 1.4em;
         transition: ease-in-out 0.5s all;
+        margin-top: 10px;
     }
     input {
         overflow: hidden;
@@ -42,10 +41,10 @@
     input#toggle:checked ~ .topnav {
         //top: -10em;
         //right: 0em;
-        right: -7em;
+        right: 0em;
     }
-    .icon-menu:after {
-        font-size: 1.5em;
+    .icon-menu {
+        font-size: 2em;
         margin-left: 10px;
         margin-bottom: 15px;
         cursor: pointer;
