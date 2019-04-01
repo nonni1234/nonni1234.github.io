@@ -194,10 +194,8 @@ a {
   input#toggle:checked ~ .topnav {
     right: -7em; }
 
-  .icon-menu {
+  .icon-menu:after {
     font-size: 1.5em;
     margin-left: 10px;
-    margin-bottom: 15px; }
-
-  body {
-    margin: 0 auto; } }
+    margin-bottom: 15px;
+    cursor: pointer; } }
