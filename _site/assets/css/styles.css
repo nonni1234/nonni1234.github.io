@@ -54,8 +54,8 @@ footer a {
 /* Animation fyrir Efnisyfirlit */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?cc7zl2");
-  src: url("../fonts/icomoon.eot?cc7zl2#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?cc7zl2") format("truetype"), url("../fonts/icomoon.woff?cc7zl2") format("woff"), url("../fonts/icomoon.svg?cc7zl2#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?y7ptkc");
+  src: url("fonts/icomoon.eot?y7ptkc#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?y7ptkc") format("truetype"), url("../fonts/icomoon.woff?y7ptkc") format("woff"), url("../fonts/icomoon.svg?y7ptkc#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -70,6 +70,15 @@ footer a {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-list2:before {
+  content: "\e9bb"; }
+
+.icon-menu:before {
+  content: "\e9bd"; }
+
+.icon-paragraph-justify:before {
+  content: "\ea7a"; }
 
 .icon-house:before {
   content: "\e902"; }
@@ -92,8 +101,26 @@ footer a {
 .icon-twitter:before {
   content: "\ea96"; }
 
-.icon-menu:before {
-  content: ""; }
+.icon-book:before {
+  content: "\e91f"; }
+
+.icon-file-text:before {
+  content: "\e922"; }
+
+.icon-folder:before {
+  content: "\e92f"; }
+
+.icon-folder-open:before {
+  content: "\e930"; }
+
+.icon-table2:before {
+  content: "\ea71"; }
+
+.icon-embed:before {
+  content: "\ea7f"; }
+
+.icon-youtube2:before {
+  content: "\ea9e"; }
 
 a {
   text-decoration: none; }
@@ -153,6 +180,10 @@ a {
     opacity: 0; }
   100% {
     top: 0px; } }
+@media screen and (max-width: 600px) {
+  .adlink {
+    height: 30em;
+    margin-top: 20em; } }
 @media screen and (min-width: 48em) {
   .menuInput {
     display: none; }
@@ -174,6 +205,10 @@ a {
   .topnav a:hover {
     color: palegoldenrod; } }
 @media screen and (max-width: 48em) {
+  .content {
+    margin-left: auto;
+    margin-right: 0; }
+
   .topnav {
     position: relative;
     right: 15em;
@@ -198,3 +233,91 @@ a {
     margin-left: 10px;
     margin-bottom: 15px;
     cursor: pointer; } }
+.divcontainer {
+  display: flex;
+  flex-flow: row; }
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  color: lightcoral;
+  font-size: 1em; }
+  table th {
+    margin: 0 auto;
+    padding: 7px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    background-color: #562e21; }
+
+td {
+  padding: 8px 12px;
+  background-color: #47261b; }
+
+#field {
+  padding: 1em;
+  border: 4px solid darkblue; }
+
+form {
+  margin-top: 4em;
+  margin-left: 3em; }
+
+.botn {
+  margin-top: 10px; }
+
+.pizza {
+  margin-bottom: 10px; }
+
+.subandreset {
+  margin-top: 20px;
+  text-align: center; }
+
+.texts {
+  margin-top: 15px; }
+  .texts input {
+    background: lightblue;
+    margin: 3px; }
+
+.senda, .reset {
+  background: lightblue; }
+
+.athugasemd {
+  background: lightblue;
+  margin-top: 10px;
+  height: 30px; }
+
+@media screen and (max-width: 600px) {
+  .divcontainer {
+    display: block; }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block; }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: right; }
+
+  table td::before {
+    content: attr(data-label);
+    float: left; }
+
+  form {
+    margin: 0;
+    margin-top: 1em;
+    width: 20em;
+    padding-left: 2em;
+    margin-left: 0 auto; }
+
+  #field {
+    padding: 2em; } }

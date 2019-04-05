@@ -58,3 +58,12 @@ a {
     0% {top: -300px; opacity: 0;}
     100% {top: 0px}
 }
+
+// Responsive
+
+@media screen and (max-width: 600px) {
+    .adlink {
+        height: 30em;
+        margin-top: 20em;
+    }
+}
