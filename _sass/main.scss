@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans');
 html {
-  background: linear-gradient(to bottom,#cc00cc,#ff0066)
+  background: linear-gradient(to bottom,#cc00cc,#ff0066);
 }
 .current {
     color: blue;
@@ -60,63 +59,3 @@ table {
   grid-area: ad;
 }
 /* Animation fyrir Efnisyfirlit */
-=======
-@import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans');
-html {
-  background: linear-gradient(to left,#cc00cc,#ff0066)
-}
-.current {
-    color: blue;
-    font-weight: bold;
-  }
-
-.um {
-  margin: 0 70px;
-  margin-top: 50px;
-  font-size: 1.4em;
-  font-family: 'Josefin Sans', sans-serif;
-  line-height: 40px;
-}
-.social{
-  border-top: solid 2px black;
-  padding-top: 20px;
-}
-.social a {
-  padding-left: 20px;
-}
-header h1 {
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  font-size: 2.5em;
-}
-// Samfélagsmiðla Navigationið
-footer a {
-  font-size: 40px;
-  text-decoration: none;
-  color: black;
-}
-
-.nonni {
-  height: 200px;
-  width: 200px;
-}
-
-/* Um Mig í about.md */
-.ummig {
-  font-size: 1.4em;
-  font-family: 'Arvo', serif;
-}
-
-.container {
-display: flex;
-flex-wrap: nowrap;
-flex-flow: row;
-}
-.content {
-  flex-direction: row;
-  margin-left: 70px;
-  align-content: center;
-}
-/* Animation fyrir Efnisyfirlit */
-
->>>>>>> parent of 6492b64... form og table

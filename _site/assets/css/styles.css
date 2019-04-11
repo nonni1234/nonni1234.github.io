@@ -156,7 +156,6 @@ a {
     opacity: 0; }
   100% {
     top: 0px; } }
-<<<<<<< HEAD
 @media screen and (max-width: 37.5em) {
   .adlink {
     overflow: hidden;
@@ -194,8 +193,6 @@ a {
     .adlink button:hover {
       background-color: #f91616;
       cursor: pointer; } }
-=======
->>>>>>> parent of 6492b64... form og table
 @media screen and (min-width: 48em) {
   .menuInput {
     display: none; }
@@ -217,7 +214,6 @@ a {
   .topnav a:hover {
     color: palegoldenrod; } }
 @media screen and (max-width: 48em) {
-<<<<<<< HEAD
   .container {
     display: grid;
     grid-template-areas: "table" "ad" "form";
@@ -231,8 +227,6 @@ a {
     margin-left: auto;
     margin-right: 0; }
 
-=======
->>>>>>> parent of 6492b64... form og table
   .topnav {
     position: relative;
     right: 15em;
@@ -257,7 +251,6 @@ a {
     margin-left: 10px;
     margin-bottom: 15px;
     cursor: pointer; } }
-<<<<<<< HEAD
 table {
   text-align: center;
   border-collapse: collapse;
@@ -334,10 +327,7 @@ form {
     margin: 0;
     margin-top: 1em;
     width: 20em;
-    padding-left: 2em;
-    margin-left: 0 auto; }
+    padding-left: 2em; }
 
   #field {
     padding: 2em; } }
-=======
->>>>>>> parent of 6492b64... form og table

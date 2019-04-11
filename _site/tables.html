@@ -1,9 +1,54 @@
-<<<<<<< HEAD
----
-title: Tables
-layout: default
----
-<script src="main.js"> </script>
+<!doctype html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1><img class="nonni" src="/assets/images/logo.svg"><br>My Blog</h1>
+      <nav>
+        <label for="toggle" class="menuLabel">
+          <input type="checkbox" id="toggle" class="menuInput">
+          <span class="icon-menu"></span>
+          
+    <div class="topnav">
+        <nav>
+  
+    <a href="/index.html" ><span class="icon-house"></span> Home</a>
+  
+    <a href="/about.html" ><span class="icon-user"></span> About</a>
+  
+    <a href="/blog.html" ><span class="icon-display"></span> Blog</a>
+  
+    <a href="/staff.html" ><span class="icon-trophy"></span> Staff</a>
+  
+    <a href="/tables.html" class="current"><span class="icon-file-text"></span> Tables</a>
+  
+</nav>
+    </div>
+  </label>
+    </nav>
+    </header>
+<div class="container">
+
+
+    <a href="https://www.youtube.com/subscription_center?add_user=pewdiepie" target="_none" class="adlink">
+<img src="/assets/images/tseries.jpg" class="tseries">
+    
+    <h3> T-Series needs help </h3> 
+    <h3> to take over pewdiepie </h3>
+    <h3> and make India number one! </h3> 
+    
+    <div>
+        <button>Subscribe Here!</button>
+    </div>
+</a>
+
+<div class="content">
+    <script src="main.js"> </script>
 <div class="divcontainer">
 <table>
     <caption title="myndir"> <h2 id="test">IMDB - Myndir</h2> </caption>
@@ -16,13 +61,55 @@ layout: default
     </thead>
 
     <tbody>
-        {% for item in site.data.myndir %}
+        
         <tr>
-            <td data-label="Nafn"> {{ item.name }} </td>
-            <td data-label="Genre"> {{ item.genre }} </td>
-            <td date-label="Rating"> {{ item.rating }} </td>
+            <td data-label="Nafn"> The Godfather </td>
+            <td data-label="Genre"> Crime, Drama </td>
+            <td date-label="Rating"> 9.2 </td>
         </tr>
-        {% endfor %}
+        
+        <tr>
+            <td data-label="Nafn"> Fight Club </td>
+            <td data-label="Genre"> Drama </td>
+            <td date-label="Rating"> 8.8 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Storm Boy </td>
+            <td data-label="Genre"> Adventure, Drama </td>
+            <td date-label="Rating"> 7.0 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Captain Marvel </td>
+            <td data-label="Genre"> Action, Adventure </td>
+            <td date-label="Rating"> 7.2 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Avengers Infinity War </td>
+            <td data-label="Genre"> Action, Adventure </td>
+            <td date-label="Rating"> 8.5 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Black Panther </td>
+            <td data-label="Genre"> Action, Adventure </td>
+            <td date-label="Rating"> 7.3 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Thor Ragnarok </td>
+            <td data-label="Genre"> Action, Adventure </td>
+            <td date-label="Rating"> 7.9 </td>
+        </tr>
+        
+        <tr>
+            <td data-label="Nafn"> Doctor Strange </td>
+            <td data-label="Genre"> Action, Fantasy </td>
+            <td date-label="Rating"> 7.5 </td>
+        </tr>
+        
     </tbody>
 </table>
 
@@ -71,77 +158,16 @@ Athugasemd:
     </label>
 </fieldset>
 </form>
-=======
----
-title: Tables
-layout: default
----
-<div class="divcontainer">
-<table>
-    <caption> <h2>IMDB - Myndir</h2> </caption>
-    <thead>
-        <tr>
-            <th scope="col">Nafn</th>
-            <th scope="col">Genre</th>
-            <th scope="col">Rating</th>
-        </tr>
-    </thead>
+</div>
+  </div>
 
-    <tbody>
-        {% for item in site.data.myndir %}
-        <tr>
-            <td data-label="Nafn"> {{ item.name }} </td>
-            <td data-label="Genre"> {{ item.genre }} </td>
-            <td date-label="Rating"> {{ item.rating }} </td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
-
-<form class="pöntun">
-    <fieldset id="field">
-    <legend>Pizza Pöntun</legend>
-    <label for="Pizza">Veldu Pizzu<br>
-    <select name="Pizza" class="pizza">
-            <option value="Bahamas" selected>Bahamas</option>
-            <option value="Meat and Cheese">Meat and Cheese</option>
-            <option value="BBQ King">BBQ King</option>
-            <option value="Svepperoni">Svepperoni</option>
-            <option value="Hawaiian">Hawaiian</option>
-            <option value="Hvítlauksbrauð">Hvítlauksbrauð</option>    
-        </select>
-        <br>
-        Veldu Botn: <br>
-    <input type="radio" name="botn" value="Klassískur" class="botn"> Klassískur
-    <input type="radio" name="botn" value="Ítalskur" class="botn"> Ítalskur
-    <input type="radio" name="botn" value="Laufléttur" class="botn"> Laufléttur <br> <br>
-    Stærð:
-    <select name="Stærð" class="stærð">
-        <option value="Stór">Stór</option>
-        <option value="Miðstærð">Miðstærð</option>
-        <option value="Lítil">Lítil</option>
-    </select>
-    <div class="texts">
-        Heimilisfang:
-    <input type="text" name="address"><br>
-        Email:
-    <input type="email" name="email">
-    <br>
-    Símanúmer:
-    <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{4}" placeholder="000-0000">
-</div>
-<br>
-<input type="radio" name="sending" value="Heimsending"> Heimsending 
-<input type="radio" name="sending" value="Sott"> Sótt
-<br>
-Athugasemd:
-<input type="text" name="Athugasemd" class="athugasemd"> 
-<div class="subandreset">
-    <input type="submit" value="Senda" class="senda"> <input type="reset" class="reset">
-</div>
-</label>
-    </label>
-</fieldset>
-</form>
->>>>>>> parent of df5e674... Form modifications
-</div>
+  </div>
+    <footer>
+      <nav class="social">
+    <a class="icon-twitter"href="https://twitter.com/"target="_blank" title="My Twitter"></a>
+    <a href="https://gmail.com/" target="_blank"title="My Email"><span class="icon-google"></span></a>
+    <a href="https://instagram.com/" target="_blank"title="My Instagram"><span class="icon-instagram"></span></a>
+</nav>
+    </footer>
+  </body>
+</html>
