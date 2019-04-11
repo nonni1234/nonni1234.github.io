@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans');
 html {
-  background: linear-gradient(to left,#cc00cc,#ff0066)
+  background: linear-gradient(to bottom,#cc00cc,#ff0066)
 }
 .current {
     color: blue;
@@ -45,13 +45,17 @@ footer a {
 }
 
 .container {
-display: flex;
-flex-wrap: nowrap;
-flex-flow: row;
+display: grid;
+grid-template-areas:
+"ad form table";
 }
-.content {
-  flex-direction: row;
-  margin-left: 70px;
-  align-content: center;
+table {
+  grid-area: table;
+}
+#field {
+  grid-area: form;
+}
+.adlink {
+  grid-area: ad;
 }
 /* Animation fyrir Efnisyfirlit */

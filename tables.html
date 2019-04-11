@@ -5,7 +5,7 @@ layout: default
 <script src="main.js"> </script>
 <div class="divcontainer">
 <table>
-    <caption> <h2 id="test">IMDB - Myndir</h2> </caption>
+    <caption title="myndir"> <h2 id="test">IMDB - Myndir</h2> </caption>
     <thead>
         <tr>
             <th scope="col">Nafn</th>
@@ -29,8 +29,8 @@ layout: default
     <fieldset id="field">
     <legend>Pizza Pöntun</legend>
     <label for="Pizza">Veldu Pizzu<br>
-    <select name="Pizza" class="pizza">
-            <option value="Bahamas" selected>Bahamas</option>
+    <select name="Pizza" class="pizza" required>
+            <option value="Bahamas">Bahamas</option>
             <option value="Meat and Cheese">Meat and Cheese</option>
             <option value="BBQ King">BBQ King</option>
             <option value="Svepperoni">Svepperoni</option>
@@ -50,9 +50,9 @@ layout: default
     </select>
     <div class="texts">
         Heimilisfang:
-    <input type="text" name="address"><br>
+    <input type="text" name="address" placeholder="Address"><br>
         Email:
-    <input type="email" name="email">
+    <input type="email" name="email" placeholder="Email">
     <br>
     Símanúmer:
     <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{4}" placeholder="000-0000">

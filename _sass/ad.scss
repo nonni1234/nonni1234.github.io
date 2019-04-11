@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 }
 .adlink {
-    width: 170px;
+    width: 10em;
     background-color: #79b0d1; 
     padding: 20px 20px;
     margin: 20px;
@@ -61,9 +61,47 @@ a {
 
 // Responsive
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5em) {
     .adlink {
-        height: 30em;
-        margin-top: 20em;
+        overflow: hidden;
+        margin-top: 30px;
+        background-color: #79b0d1; 
+        padding: 20px 20px;
+        margin: 20px;
+        .tseries {
+            margin-left: 10px;
+            position: relative;
+            overflow: hidden;
+            width: 150px;
+            height: 200px;
+            animation-name: image;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-delay: -1s;
+        }
+        h3 {
+            text-align: center;
+            font-family: Muli, sans-serif;
+        }
+    
+        button {
+            width: 100px;
+            height: 40px;
+            border-radius: 10%;
+            color: #82255b;
+            background: #f26d0e;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            position: relative;
+            animation-name: buttonmove;
+            animation-duration: 3s;
+            overflow: hidden;
+            text-align: center;
+        }
+        button:hover {
+            background-color: #f91616;
+            cursor: pointer;
+        }
     }
 }
