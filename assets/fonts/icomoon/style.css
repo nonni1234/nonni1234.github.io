@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?y7ptkc');
-  src:  url('fonts/icomoon.eot?y7ptkc#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?y7ptkc') format('truetype'),
-    url('fonts/icomoon.woff?y7ptkc') format('woff'),
-    url('fonts/icomoon.svg?y7ptkc#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?bcyfhr');
+  src:  url('fonts/icomoon.eot?bcyfhr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bcyfhr') format('truetype'),
+    url('fonts/icomoon.woff?bcyfhr') format('woff'),
+    url('fonts/icomoon.svg?bcyfhr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -53,25 +53,4 @@
 }
 .icon-twitter:before {
   content: "\ea96";
-}
-.icon-book:before {
-  content: "\e91f";
-}
-.icon-file-text:before {
-  content: "\e922";
-}
-.icon-folder:before {
-  content: "\e92f";
-}
-.icon-folder-open:before {
-  content: "\e930";
-}
-.icon-table2:before {
-  content: "\ea71";
-}
-.icon-embed:before {
-  content: "\ea7f";
-}
-.icon-youtube2:before {
-  content: "\ea9e";
 }

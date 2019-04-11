@@ -57,8 +57,8 @@ table {
 /* Animation fyrir Efnisyfirlit */
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?y7ptkc");
-  src: url("fonts/icomoon.eot?y7ptkc#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?y7ptkc") format("truetype"), url("../fonts/icomoon.woff?y7ptkc") format("woff"), url("../fonts/icomoon.svg?y7ptkc#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?cc7zl2");
+  src: url("../fonts/icomoon.eot?cc7zl2#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?cc7zl2") format("truetype"), url("../fonts/icomoon.woff?cc7zl2") format("woff"), url("../fonts/icomoon.svg?cc7zl2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -73,15 +73,6 @@ table {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-
-.icon-list2:before {
-  content: "\e9bb"; }
-
-.icon-menu:before {
-  content: "\e9bd"; }
-
-.icon-paragraph-justify:before {
-  content: "\ea7a"; }
 
 .icon-house:before {
   content: "\e902"; }
@@ -104,26 +95,8 @@ table {
 .icon-twitter:before {
   content: "\ea96"; }
 
-.icon-book:before {
-  content: "\e91f"; }
-
-.icon-file-text:before {
-  content: "\e922"; }
-
-.icon-folder:before {
-  content: "\e92f"; }
-
-.icon-folder-open:before {
-  content: "\e930"; }
-
-.icon-table2:before {
-  content: "\ea71"; }
-
-.icon-embed:before {
-  content: "\ea7f"; }
-
-.icon-youtube2:before {
-  content: "\ea9e"; }
+.icon-menu:before {
+  content: ""; }
 
 a {
   text-decoration: none; }
@@ -183,6 +156,7 @@ a {
     opacity: 0; }
   100% {
     top: 0px; } }
+<<<<<<< HEAD
 @media screen and (max-width: 37.5em) {
   .adlink {
     overflow: hidden;
@@ -220,6 +194,8 @@ a {
     .adlink button:hover {
       background-color: #f91616;
       cursor: pointer; } }
+=======
+>>>>>>> parent of 6492b64... form og table
 @media screen and (min-width: 48em) {
   .menuInput {
     display: none; }
@@ -241,6 +217,7 @@ a {
   .topnav a:hover {
     color: palegoldenrod; } }
 @media screen and (max-width: 48em) {
+<<<<<<< HEAD
   .container {
     display: grid;
     grid-template-areas: "table" "ad" "form";
@@ -254,6 +231,8 @@ a {
     margin-left: auto;
     margin-right: 0; }
 
+=======
+>>>>>>> parent of 6492b64... form og table
   .topnav {
     position: relative;
     right: 15em;
@@ -278,6 +257,7 @@ a {
     margin-left: 10px;
     margin-bottom: 15px;
     cursor: pointer; } }
+<<<<<<< HEAD
 table {
   text-align: center;
   border-collapse: collapse;
@@ -359,3 +339,5 @@ form {
 
   #field {
     padding: 2em; } }
+=======
+>>>>>>> parent of 6492b64... form og table
