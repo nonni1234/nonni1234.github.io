@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Tables
 layout: default
@@ -70,4 +71,77 @@ Athugasemd:
     </label>
 </fieldset>
 </form>
+=======
+---
+title: Tables
+layout: default
+---
+<div class="divcontainer">
+<table>
+    <caption> <h2>IMDB - Myndir</h2> </caption>
+    <thead>
+        <tr>
+            <th scope="col">Nafn</th>
+            <th scope="col">Genre</th>
+            <th scope="col">Rating</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for item in site.data.myndir %}
+        <tr>
+            <td data-label="Nafn"> {{ item.name }} </td>
+            <td data-label="Genre"> {{ item.genre }} </td>
+            <td date-label="Rating"> {{ item.rating }} </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<form class="pöntun">
+    <fieldset id="field">
+    <legend>Pizza Pöntun</legend>
+    <label for="Pizza">Veldu Pizzu<br>
+    <select name="Pizza" class="pizza">
+            <option value="Bahamas" selected>Bahamas</option>
+            <option value="Meat and Cheese">Meat and Cheese</option>
+            <option value="BBQ King">BBQ King</option>
+            <option value="Svepperoni">Svepperoni</option>
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Hvítlauksbrauð">Hvítlauksbrauð</option>    
+        </select>
+        <br>
+        Veldu Botn: <br>
+    <input type="radio" name="botn" value="Klassískur" class="botn"> Klassískur
+    <input type="radio" name="botn" value="Ítalskur" class="botn"> Ítalskur
+    <input type="radio" name="botn" value="Laufléttur" class="botn"> Laufléttur <br> <br>
+    Stærð:
+    <select name="Stærð" class="stærð">
+        <option value="Stór">Stór</option>
+        <option value="Miðstærð">Miðstærð</option>
+        <option value="Lítil">Lítil</option>
+    </select>
+    <div class="texts">
+        Heimilisfang:
+    <input type="text" name="address"><br>
+        Email:
+    <input type="email" name="email">
+    <br>
+    Símanúmer:
+    <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{4}" placeholder="000-0000">
+</div>
+<br>
+<input type="radio" name="sending" value="Heimsending"> Heimsending 
+<input type="radio" name="sending" value="Sott"> Sótt
+<br>
+Athugasemd:
+<input type="text" name="Athugasemd" class="athugasemd"> 
+<div class="subandreset">
+    <input type="submit" value="Senda" class="senda"> <input type="reset" class="reset">
+</div>
+</label>
+    </label>
+</fieldset>
+</form>
+>>>>>>> parent of df5e674... Form modifications
 </div>
