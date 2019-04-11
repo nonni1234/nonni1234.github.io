@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 - name: <span class="icon-house"></span> Home
-  link: /
+  link: /index.html
 - name: <span class="icon-user"></span> About
   link: /about.html
 - name: <span class="icon-display"></span> Blog
@@ -9,13 +8,3 @@
   link: /staff.html
 - name: <span class="icon-file-text"></span> Tables
   link: /tables.html
-=======
-- name: <span class="icon-house"></span> Home
-  link: /
-- name: <span class="icon-user"></span> About
-  link: /about.html
-- name: <span class="icon-display"></span> Blog
-  link: /blog.html
-- name: <span class="icon-trophy"></span> Staff
-  link: /staff.html
->>>>>>> parent of 6492b64... form og table
