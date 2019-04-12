@@ -1,4 +1,4 @@
-@media screen and (min-width: 48em) { // Original Menuið á stórum skjá
+@media screen and (min-width: 50em) { // Original Menuið á stórum skjá
    .menuInput {
        display: none;
    }
@@ -21,8 +21,9 @@
     }
     }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 50em) {
     .container {
+        align-content: center;
         display: grid;
         grid-template-areas:
         "table"
@@ -31,12 +32,10 @@
         grid-gap: 0;
     }
     .adlink {
-        margin: 0;
-        margin-left: 2em;;
+        margin: 3em;
     }
     .content {
-        margin-left: auto;
-        margin-right: 0; 
+        margin: 0; 
     }
     .topnav {
         position: relative;

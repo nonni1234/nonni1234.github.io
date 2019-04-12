@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Dosis|Josefin+Sans|Muli|Work+Sans");
 @import url("https://fonts.googleapis.com/css?family=Muli|Work+Sans");
 html {
-  background: linear-gradient(to bottom, #cc00cc, #ff0066); }
+  background: linear-gradient(to right, #cc00cc, #ff0066);
+  height: 100%; }
 
 .current {
   color: blue;
@@ -156,8 +157,9 @@ a {
     opacity: 0; }
   100% {
     top: 0px; } }
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 40em) {
   .adlink {
+    text-align: center;
     overflow: hidden;
     margin-top: 30px;
     background-color: #79b0d1;
@@ -193,7 +195,7 @@ a {
     .adlink button:hover {
       background-color: #f91616;
       cursor: pointer; } }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 50em) {
   .menuInput {
     display: none; }
 
@@ -213,19 +215,18 @@ a {
 
   .topnav a:hover {
     color: palegoldenrod; } }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 50em) {
   .container {
+    align-content: center;
     display: grid;
     grid-template-areas: "table" "ad" "form";
     grid-gap: 0; }
 
   .adlink {
-    margin: 0;
-    margin-left: 2em; }
+    margin: 3em; }
 
   .content {
-    margin-left: auto;
-    margin-right: 0; }
+    margin: 0; }
 
   .topnav {
     position: relative;
@@ -299,7 +300,10 @@ form {
   margin-top: 10px;
   height: 30px; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  .container {
+    text-align: left; }
+
   table thead {
     border: none;
     clip: rect(0 0 0 0);

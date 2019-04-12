@@ -58,9 +58,11 @@ form {
 // Responsive Table and Form
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   // Table
-
+  .container {
+    text-align: left;
+  }
   table thead {
     border: none;
     clip: rect(0 0 0 0);
