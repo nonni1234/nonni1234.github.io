@@ -1,10 +1,3 @@
-
-
-:x
-
-
-B
-B
 ---
 layout: default
 title: About
